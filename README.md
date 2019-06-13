@@ -1,6 +1,6 @@
 ## Why
 
-We selected the most popular WeChat UI libraries to help you speed up your Mini Programs projects. 
+We selected the most popular WeChat UI libraries to help you speed up your Mini Programs projects.
 
 Need a calendar, slider, or accordion? No need to reinvent the wheel 😉 Start with a UI library!
 
@@ -30,7 +30,7 @@ The UI library by **WeChat official design team**, including useful widgets/modu
 
 ### Preview:
 
-![](https://user-images.githubusercontent.com/2395166/29502325-ada080f6-8661-11e7-94c2-23d638210f45.jpg)
+![](https://github.com/tgenaitay/wechat-UI/blob/master/images/29502325-ada080f6-8661-11e7-94c2-23d638210f45.jpg?raw=true)
 
 ### How to use it?
 
@@ -55,7 +55,7 @@ If you want to make a Mini Program for **e-commerce**, **catering**, **take-out 
 
 ### Preview:
 
-![](https://camo.githubusercontent.com/8259251e8b3b41536eb90545f0f7f1c366e60909/68747470733a2f2f696d672e797a63646e2e636e2f76616e742d77656170702f7172636f64652d3230313830383130313131342e6a7067)
+![](https://github.com/tgenaitay/wechat-UI/blob/master/images/68747470733a2f2f696d672e797a63646e2e636e2f76616e742d77656170702f7172636f64652d3230313830383130313131342e6a7067.jpg?raw=true)
 
 
 ### How to use it?
@@ -108,7 +108,7 @@ data: {
 
 ```
 
-![](https://s3.ifanr.com/wp-content/uploads/2019/04/333-1.jpg)
+![](https://github.com/tgenaitay/wechat-UI/blob/master/images/68747470733a2f2f73332e6966616e722e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031392f30342f3333332d312e6a7067.jpg?raw=true)
 
 **... or ALL at once**
 
@@ -172,7 +172,7 @@ You can also register ALL components at once in your `app.json` and use them lat
 ```
 
 `page.WXML`
- 
+
  ```html
 <van-steps
   steps="{{ steps }}"
@@ -188,11 +188,11 @@ You can also register ALL components at once in your `app.json` and use them lat
 
 <van-button bind:click="nextStep">下一步</van-button>
  ```
- 
+
 `page.JS`
 
 ```javascript
-data: 
+data:
 {
 	active: 0,
 	steps: [
@@ -222,17 +222,17 @@ nextStep() {
 
 ```
 
-![](Vant-Steps.gif)
+![](https://github.com/tgenaitay/wechat-UI/blob/master/images/Vant-Steps.gif?raw=true)
 
 ## Wux
 
-Wux is an open source library with the highest diversity: over 60 reusable and extensible WeChat Mini Program **Custom Components.** 
+Wux is an open source library with the highest diversity: over 60 reusable and extensible WeChat Mini Program **Custom Components.**
 
 You will want to check its **progress loops**, **skeleton screens**, **filter bars**, **numeric keypads**, and **result pages**.
 
 ### Preview
 
-![](https://wux-weapp.github.io/wux-weapp-docs/_images/qrcode.jpg)
+![](https://github.com/tgenaitay/wechat-UI/blob/master/images/68747470733a2f2f7775782d77656170702e6769746875622e696f2f7775782d77656170702d646f63732f5f696d616765732f7172636f64652e6a7067.jpg?raw=true)
 
 ### How to use it?
 
@@ -264,7 +264,7 @@ Example: [wux-button](https://wux-weapp.github.io/wux-weapp-docs/#/button)
 @import '../../dist/styles/index.wxss';
 ```
 
-![](https://s3.ifanr.com/wp-content/uploads/2019/04/1-20.jpg)
+![](https://github.com/tgenaitay/wechat-UI/blob/master/images/68747470733a2f2f73332e6966616e722e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031392f30342f312d32302e6a7067.jpg?raw=true)
 
 
 ## Color UI
@@ -273,7 +273,7 @@ ColorUI is a component library that focuses on visual interaction. Compared to W
 
 ### Preview
 
-![](ColorUI.png)
+![](https://github.com/tgenaitay/wechat-UI/blob/master/images/ColorUI.png?raw=true)
 
 ### How to use it
 
@@ -306,7 +306,7 @@ onLaunch: function() {
       success: e => {
         this.globalData.StatusBar = e.statusBarHeight;
         let custom = wx.getMenuButtonBoundingClientRect();
-        this.globalData.Custom = custom;  
+        this.globalData.Custom = custom;
         this.globalData.CustomBar = custom.bottom + custom.top - e.statusBarHeight;
       }
     })
@@ -325,4 +325,4 @@ onLaunch: function() {
 
 - Navigate [examples](https://github.com/weilanwl/ColorUI/tree/master/demo/pages) of pages or components and copy paste all relevant `wxml` + `js` code provided
 
-![](https://s3.ifanr.com/wp-content/uploads/2019/04/331.jpg)
+![](https://github.com/tgenaitay/wechat-UI/blob/master/images/68747470733a2f2f73332e6966616e722e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031392f30342f3333312e6a7067.jpg?raw=true)
